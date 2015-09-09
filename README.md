@@ -15,11 +15,15 @@ sh install.sh
 ```
 
 ## 配置
+```
 vi /data/server/ttyjs-app/config.json
+```
 
 ## 启动
+```
 cd /data/server/ttyjs-app
 sh start.sh
+```
 
 
 
