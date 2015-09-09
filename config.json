@@ -1,14 +1,16 @@
 {
   "users": {
+    // config username and password
     "username": "password"
   },
+  // config default directory when user login
+  "cwd": "/usr/share/nginx/html/admin2",
   "port": 8000,
   "hostname": "0.0.0.0",
   "shell": "bash",
   "limitGlobal": 50,
   "limitPerUser": 10,
   "localOnly": false,
-  "cwd": "/usr/share/nginx/html/admin2",
   "syncSession": false,
   "sessionTimeout": 600000,
   "log": true,
